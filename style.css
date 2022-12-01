@@ -60,9 +60,22 @@ body {
 }
 
 .btn {
-    
-    animation: treme 0.6s;
+    animation: treme 0.8s;
     animation-iteration-count: infinite;
+    animation-name: pulsing_1660150167135cebKif;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    }
+  @keyframes pulsing_1660150167135cebKif {
+  0% {
+  box-shadow: 0 0 0 0 #228B22
+    }
+                
+  80% {
+  box-shadow: 0 0 0 12px #00dd0000
+    }
+      }
 }
 @keyframes treme {
   0% {margin-left: 0;}
@@ -70,4 +83,13 @@ body {
   1% {margin-left: 0;}
   60% {margin-left: -4px;}
   100% {margin-left: 0;}
+}
+}
+@keyframes treme {
+  0% {margin-left: 0;}
+  1% {margin-left: 4px;}
+  1% {margin-left: 0;}
+  60% {margin-left: -4px;}
+  100% {margin-left: 0;}
+}
 }
